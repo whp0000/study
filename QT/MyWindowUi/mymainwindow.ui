@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MyMainWindow</class>
+ <widget class="QMainWindow" name="MyMainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1147</width>
+    <height>1064</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MyMainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="14" column="2">
+     <widget class="QToolBox" name="toolBox">
+      <property name="currentIndex">
+       <number>1</number>
+      </property>
+      <widget class="QWidget" name="page">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>108</width>
+         <height>255</height>
+        </rect>
+       </property>
+       <attribute name="label">
+        <string>Page 1</string>
+       </attribute>
+       <widget class="QPushButton" name="pushButton_8">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>51</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>PushButton</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_4">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>108</width>
+         <height>255</height>
+        </rect>
+       </property>
+       <attribute name="label">
+        <string>Page 2</string>
+       </attribute>
+       <widget class="QLabel" name="label">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>30</y>
+          <width>111</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+    <item row="15" column="0" colspan="3">
+     <widget class="MyLabelEvent" name="labelEv">
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+    </item>
+    <item row="15" column="3">
+     <widget class="MyButtonEvent" name="pushButtonEvent">
+      <property name="text">
+       <string>PushButton</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="3">
+     <widget class="smallWidget" name="widget_2" native="true"/>
+    </item>
+    <item row="1" column="3" rowspan="6" colspan="2">
+     <widget class="QWidget" name="widget" native="true">
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <widget class="QSplitter" name="splitter_6">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QSplitter" name="splitter_7">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <widget class="QTextEdit" name="textEdit_5"/>
+          <widget class="QSplitter" name="splitter_8">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <widget class="QTextEdit" name="textEdit_6"/>
+           <widget class="QTextEdit" name="textEdit_7"/>
+          </widget>
+         </widget>
+         <widget class="QTextEdit" name="textEdit_8"/>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QSplitter" name="splitter_5">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QSplitter" name="splitter_4">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <widget class="QSplitter" name="splitter_3">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+          </widget>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="0" rowspan="2" colspan="2">
+     <widget class="QLabel" name="labelText">
+      <property name="minimumSize">
+       <size>
+        <width>141</width>
+        <height>41</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>TextLabelText</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2" rowspan="3" colspan="2">
+     <widget class="QLabel" name="labelImage">
+      <property name="minimumSize">
+       <size>
+        <width>251</width>
+        <height>151</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="6" rowspan="2">
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="currentIndex">
+       <number>3</number>
+      </property>
+      <widget class="QWidget" name="page_0">
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>30</y>
+          <width>75</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_1">
+       <widget class="QPushButton" name="pushButton_3">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>40</y>
+          <width>75</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>1</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_2">
+       <widget class="QPushButton" name="pushButton">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>30</y>
+          <width>75</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>2</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_3">
+       <widget class="QPushButton" name="pushButton_5">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>30</y>
+          <width>75</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>3</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+    <item row="3" column="6">
+     <widget class="QPushButton" name="closeButton">
+      <property name="text">
+       <string>close</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="6">
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="text">
+       <string>change</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0" rowspan="3" colspan="3">
+     <widget class="QLabel" name="labelUrl">
+      <property name="minimumSize">
+       <size>
+        <width>251</width>
+        <height>201</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="6">
+     <widget class="QDial" name="dial"/>
+    </item>
+    <item row="6" column="6">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="spacing">
+       <number>20</number>
+      </property>
+      <item>
+       <widget class="QPushButton" name="pushButton_6">
+        <property name="text">
+         <string>PushButton</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_7">
+        <property name="text">
+         <string>PushButton</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="5" column="6">
+     <widget class="QDateEdit" name="dateEdit"/>
+    </item>
+    <item row="7" column="6">
+     <widget class="QKeySequenceEdit" name="keySequenceEdit"/>
+    </item>
+    <item row="7" column="0" rowspan="6" colspan="3">
+     <widget class="QWebView" name="webView">
+      <property name="url">
+       <url>
+        <string>about:blank</string>
+       </url>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="4" rowspan="5">
+     <widget class="QLabel" name="labelGif">
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="6">
+     <widget class="QProgressBar" name="progressBar">
+      <property name="value">
+       <number>24</number>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="3">
+     <widget class="QLineEdit" name="lineEditMyStyle"/>
+    </item>
+    <item row="9" column="5">
+     <widget class="QSpinBox" name="spinBox"/>
+    </item>
+    <item row="8" column="6">
+     <widget class="QLCDNumber" name="lcdNumber"/>
+    </item>
+    <item row="8" column="5">
+     <widget class="QDoubleSpinBox" name="doubleSpinBox"/>
+    </item>
+    <item row="11" column="6">
+     <widget class="QTimeEdit" name="timeEdit"/>
+    </item>
+    <item row="10" column="6">
+     <widget class="QDateTimeEdit" name="dateTimeEdit"/>
+    </item>
+    <item row="11" column="3" rowspan="4">
+     <widget class="QTextEdit" name="textEditMyStyle"/>
+    </item>
+    <item row="12" column="6">
+     <widget class="QLineEdit" name="lineEdit">
+      <property name="text">
+       <string>打开文件</string>
+      </property>
+     </widget>
+    </item>
+    <item row="13" column="0">
+     <widget class="QComboBox" name="comboBox"/>
+    </item>
+    <item row="13" column="4" rowspan="2">
+     <widget class="QPushButton" name="pushButtonMyStyle">
+      <property name="text">
+       <string>PushButton</string>
+      </property>
+     </widget>
+    </item>
+    <item row="13" column="1">
+     <widget class="QToolButton" name="toolButton">
+      <property name="text">
+       <string>...</string>
+      </property>
+     </widget>
+    </item>
+    <item row="16" column="1">
+     <widget class="QDialogButtonBox" name="buttonBox">
+      <property name="standardButtons">
+       <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+   <widget class="QSplitter" name="splitter_2">
+    <property name="geometry">
+     <rect>
+      <x>404</x>
+      <y>73</y>
+      <width>0</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+    <widget class="QSplitter" name="splitter">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1147</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>文件</string>
+    </property>
+    <addaction name="actionNew_file"/>
+    <addaction name="action_open"/>
+    <addaction name="separator"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionNew_file">
+   <property name="text">
+    <string>新建文件</string>
+   </property>
+  </action>
+  <action name="action_open">
+   <property name="text">
+    <string>打开文件</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>QWebView</class>
+   <extends>QWidget</extends>
+   <header>QtWebKitWidgets/QWebView</header>
+  </customwidget>
+  <customwidget>
+   <class>smallWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">smallwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>MyLabelEvent</class>
+   <extends>QLabel</extends>
+   <header location="global">mylabelevent.h</header>
+  </customwidget>
+  <customwidget>
+   <class>MyButtonEvent</class>
+   <extends>QPushButton</extends>
+   <header location="global">mybuttonevent.h</header>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>lineEditMyStyle</tabstop>
+  <tabstop>webView</tabstop>
+  <tabstop>textEdit_8</tabstop>
+  <tabstop>textEdit_7</tabstop>
+  <tabstop>pushButton_5</tabstop>
+  <tabstop>lineEdit</tabstop>
+  <tabstop>pushButton_4</tabstop>
+  <tabstop>doubleSpinBox</tabstop>
+  <tabstop>spinBox</tabstop>
+  <tabstop>timeEdit</tabstop>
+  <tabstop>dateEdit</tabstop>
+  <tabstop>dateTimeEdit</tabstop>
+  <tabstop>dial</tabstop>
+  <tabstop>keySequenceEdit</tabstop>
+  <tabstop>textEdit_6</tabstop>
+  <tabstop>pushButton_6</tabstop>
+  <tabstop>pushButton_7</tabstop>
+  <tabstop>closeButton</tabstop>
+  <tabstop>pushButton_2</tabstop>
+  <tabstop>pushButton</tabstop>
+  <tabstop>pushButton_3</tabstop>
+  <tabstop>textEdit_5</tabstop>
+  <tabstop>textEditMyStyle</tabstop>
+  <tabstop>pushButtonMyStyle</tabstop>
+  <tabstop>pushButtonEvent</tabstop>
+  <tabstop>comboBox</tabstop>
+  <tabstop>toolButton</tabstop>
+  <tabstop>pushButton_8</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>closeButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MyMainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>966</x>
+     <y>223</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>199</x>
+     <y>149</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>clicked(QAbstractButton*)</signal>
+   <receiver>textEditMyStyle</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>133</x>
+     <y>1023</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>454</x>
+     <y>887</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/dog.jpg</file>
+        <file>images/地球环保.png</file>
+        <file>images/地球绿色.png</file>
+        <file>images/细菌病毒(大图).png</file>
+        <file>images/细菌病毒.png</file>
+        <file>images/兴高采烈.gif</file>
+        <file>images/万圣节文字.jpg</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>ChIldwindow.qml</file>
+        <file>ChIldwindowForm.ui.qml</file>
+    </qresource>
+</RCC>
